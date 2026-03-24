@@ -1,1 +1,1 @@
-merge nie był fast-forward ponieważ na obu gałeziach byly zcommitowane zmiany dlatego git musiał zrobić dwa tak jakby rodzicie?
+fast-forward jest wtedy kiedy branch do którego mergujemy nie ma nowych commitów a merge commit kiedy miał
