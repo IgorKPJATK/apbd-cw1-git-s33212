@@ -9,6 +9,7 @@
     
     static int Add(int a, int b)
     {
+        //a niech bedzie tutaj komentarzyk
         return a + b;
     }
     
