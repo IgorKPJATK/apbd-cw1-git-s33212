@@ -3,7 +3,7 @@
     static void Main(string[] args)
     {
         
-        Console.WriteLine("--- Kalkulator ---");
+        Console.WriteLine("--- Balbulator ---");
         Console.Write("podaj liczbe: ");
         int a =Int32.Parse(Console.ReadLine());
         Console.Write("podaj  drugą liczbe: ");
