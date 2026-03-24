@@ -6,10 +6,12 @@
         Console.WriteLine("--- Kalkulator ---");
         Console.Write("podaj liczbe: ");
         int a =Int32.Parse(Console.ReadLine());
-        Console.Write("Dodawanie 6 i 7: " + Add(a,6) + '\n');
-        Console.Write("Odejmowanie 6 i 7: " + Subtract(a,7) + '\n');
-        Console.Write("Mnożenie 6 i 7: " + Multiply(a,7) + '\n');
-        Console.Write("Dzielenie 6 i 7: " + Divide(a,7) + '\n');
+        Console.Write("podaj  drugą liczbe: ");
+        int b =Int32.Parse(Console.ReadLine());
+        Console.Write("Dodawanie " + a + " i " + b + ": " + Add(a,b) + '\n');
+        Console.Write("Odejmowanie " + a + " i " + b + ": "  + Subtract(a,b) + '\n');
+        Console.Write("Mnożenie " + a + " i " + b + ": "  + Multiply(a,b) + '\n');
+        Console.Write("Dzielenie " + a + " i " + b + ": "  + Divide(a,b) + '\n');
     }
     
     static int Add(int a, int b)
