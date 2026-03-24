@@ -2,11 +2,21 @@
 {
     static void Main(string[] args)
     {
+
         Console.WriteLine("*--- Kalkulator ---*");
         Console.Write("Dodawanie 6 i 7: " + Add(7,6) + '\n');
         Console.Write("Odejmowanie 6 i 7: " + Subtract(6,7) + '\n');
         Console.Write("Mnożenie 6 i 7: " + Multiply(6,7) + '\n');
         Console.Write("Dzielenie 6 i 7: " + Divide(6,7) + '\n');
+
+        
+        Console.WriteLine("--- Kalkulator ---");
+        Console.Write("podaj liczbe: ");
+        int a =Int32.Parse(Console.ReadLine());
+        Console.Write("Dodawanie 6 i 7: " + Add(a,6) + '\n');
+        Console.Write("Odejmowanie 6 i 7: " + Subtract(a,7) + '\n');
+        Console.Write("Mnożenie 6 i 7: " + Multiply(a,7) + '\n');
+        Console.Write("Dzielenie 6 i 7: " + Divide(a,7) + '\n');
     }
     
     static int Add(int a, int b)
