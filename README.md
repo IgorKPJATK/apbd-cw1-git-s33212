@@ -1,1 +1,3 @@
 fast-forward jest wtedy kiedy branch do którego mergujemy nie ma nowych commitów a merge commit kiedy miał
+praktynie to rebase powoduje ze nasze branche są wkładane w jedną linie gdzie merge ewidetnie widać kto i kiedy zmieniał
+w moim repozytorium wybrałem opcje reslove conflicts z jetridera oraz wybrałem po prostu prawą opcje
